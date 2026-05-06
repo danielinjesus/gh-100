@@ -32,5 +32,10 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+      - name : 아무한테나 노출이 되면 안 됨
+        run: |
+          echo ${{ secrets.MY_NAME }}
+          echo ${{ secrets.MY_HOBBY }}
+
           
 
