@@ -1,14 +1,15 @@
-name: Github Actions 실행시켜보기
+name: GitHub Actions 실행시켜보기
 
-on: 
-	push:
-		branches:
-			- main
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-	My-Deploy-Job:
-		runs-on: ubuntu-latest
+  My-Deploy-Job:
+    runs-on: ubuntu-latest
 
-	stesps:
-		- name: Hello World 찍기
-			run: echo "Hello World"
+    steps:
+      - name: Hello World 찍기
+        run: echo "Hello World"
+
