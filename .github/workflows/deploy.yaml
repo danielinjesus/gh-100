@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+    workflow_dispatch:
 
   
 # 하나의 Workflow는 1개 이상의 Job으로 구성됩니다.
