@@ -27,5 +27,6 @@ jobs:
         run: |
           echo "Good"
           echo "Morning"
+          echo "How are you?"
           
 
